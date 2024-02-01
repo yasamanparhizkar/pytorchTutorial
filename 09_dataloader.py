@@ -62,7 +62,7 @@ print(features, labels)
 train_loader = DataLoader(dataset=dataset,
                           batch_size=4,
                           shuffle=True,
-                          num_workers=2)
+                          num_workers=0)
 
 # convert to an iterator and look at one random sample
 dataiter = iter(train_loader)
