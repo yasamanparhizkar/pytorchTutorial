@@ -4,7 +4,7 @@ import torch
 # A tensor can have different dimensions
 # so it can be 1d, 2d, or even 3d and higher
 
-# scalar, vector, matrix, tensor
+# something scalar, vector, matrix, tensor
 
 # torch.empty(size): uninitiallized
 x = torch.empty(1) # scalar
